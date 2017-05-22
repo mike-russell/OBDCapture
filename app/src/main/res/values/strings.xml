@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OBDCapture</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="url">192.168.0.10</string>
+    <string name="port">35000</string>
+    <string name="output"></string>
+</resources>
