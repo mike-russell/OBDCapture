@@ -6,7 +6,7 @@ It uses the [OBD-JAVA-API library](https://github.com/pires/obd-java-api) librar
 
 OBDCapture was developed as a data generation utility for Red Hat’s [RADAnalytics platform](http://radanalytics.io/). The larger picture is to show how to do real time analytics on driving data (i.e. real time underwriting, etc.).
 
-It was developed to generate real driving data, not as a nice app. So, there are no cool gauges, or other fancy UI elements.
+It was developed to generate real driving data. There are no cool gauges, or other fancy UI elements.
 
 
 ## Output
