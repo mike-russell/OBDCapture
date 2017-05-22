@@ -26,32 +26,57 @@ Sample file name:
 “OBD-2017-05-01 22-44-49.455.txt”
 
 Each record is a JSON object with the following format:
+
 {
-	"vin":"5N1AR3DD2AC69123”,
-	“timestamp":"2017-04-20 2:54:29.600",
-	"dtcCount":"0",
-	"distanceWithMIL":"0.0",
-	“speed":"0.0",
-	“rpm":"637",
-	"engineRunTime":"55",
-	"throttlePos":"2.3529413",
-	"barometricPressure":"14.79385",
-	"latitude”:”99.9999”,
-	"longitude”:”-99.9999”
+
+"vin":"5N1AR3DD2AC69123”,
+
+“timestamp":"2017-04-20 2:54:29.600",
+
+"dtcCount":"0",
+
+"distanceWithMIL":"0.0",
+
+“speed":"0.0",
+
+“rpm":"637",
+
+"engineRunTime":"55",
+
+"throttlePos":"2.3529413",
+
+"barometricPressure":"14.79385",
+
+"latitude”:”99.9999”,
+
+"longitude”:”-99.9999”
+
 }
 
+
 ** Dictionary: **
-“vin":			Vehicle Identification Number
-“timestamp":		Timestamp of each OBD-II capture
-"dtcCount":			Number of Display Trouble Codes (i.e. Check Engine Light, etc)
-"distanceWithMIL":		Amount of miles driven since Malfunction Indicator Lamp on
-“speed":			Current MPH
-“rpm":			Current RPM
-"engineRunTime":		Amount of time engine has been running (seconds) 
-"throttlePos":		Throttle position (percentage)
-"barometricPressure":	Barometric Pressure (psi)
-"latitude":			Latitude
-"longitude":			Longitude
+
+“vin": Vehicle Identification Number
+
+“timestamp": Timestamp of each OBD-II capture
+
+"dtcCount": Number of Display Trouble Codes (i.e. Check Engine Light, etc)
+
+"distanceWithMIL": Amount of miles driven since Malfunction Indicator Lamp on
+
+“speed": Current MPH
+
+“rpm": Current RPM
+
+"engineRunTime": Amount of time engine has been running (seconds) 
+
+"throttlePos": Throttle position (percentage)
+
+"barometricPressure": Barometric Pressure (psi)
+
+"latitude": Latitude
+
+"longitude": Longitude
 
 
 ## Prerequisites
@@ -60,7 +85,7 @@ To run this app, you must have an OBD-II WiFi scanner.
 
 All vehicles after 1996 have an OBD-II port, so the car will support it if it’s after 1996 model year.
 
-OBDCapture communicates with an OBD-II WiFi scanner. It will probably work with a Bluetooth scanner, but it has only been tested on the [Foseal WiFi scanner](www.foseal.com). 
+OBDCapture communicates with an OBD-II WiFi scanner. It will probably work with a Bluetooth scanner, but it has only been tested on the [Foseal WiFi scanner](http://www.foseal.com). 
 
 
 ## Dependencies
